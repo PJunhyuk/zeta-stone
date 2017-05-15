@@ -17,7 +17,7 @@ int myColor;
 
 static char cmd[256];
 static HANDLE event1, event2;
-#define BOARD_SIZE 20
+
 int board[BOARD_SIZE][BOARD_SIZE];
 
 static void getLine() {

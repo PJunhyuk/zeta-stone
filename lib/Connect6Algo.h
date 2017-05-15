@@ -19,3 +19,7 @@ extern void domymove(int x[], int y[], int cnt = 2);
 
 void myturn(int cnt = 2);
 char info[];
+
+#define BOARD_SIZE 20
+
+//extern int board[BOARD_SIZE][BOARD_SIZE];
